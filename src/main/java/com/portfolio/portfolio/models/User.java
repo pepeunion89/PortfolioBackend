@@ -26,6 +26,9 @@ public class User implements Serializable{
     @Column(name="apellido")
     private String apellido;
     
+    @Column(name="genero")
+    private String genero;
+    
     @Lob
     @Column(name="forografia")
     private String fotografia;    
